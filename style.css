@@ -21,17 +21,58 @@ nav h2 {
 nav h4 {
   font-size: 1.5vw;
 }
+.nav-btn {
+  padding: 1rem;
+  background-color: white;
+  border: 3px solid gray;
+  outline: none;
+  color: gray;
+  cursor: pointer;
+}
+.section-container {
+  background-image: url("https://omghcontent.affino.com/AcuCustom/Sitename/DAM/178/Cladding_credit_Hiran_Perera.jpg");
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-weight: bolder;
+  word-spacing: 1vw;
+  color: white;
+}
+.section-container > .nav-btn {
+  border-color: white;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  mix-blend-mode: screen; 
+  cursor: pointer;
+}
 
 @media (max-width: 600px) {
-  nav {
-    background-color: lightseagreen;
-    color: white;
-  }
-  nav h2{
+  nav h2 {
     font-size: 6vw;
     font-weight: 700;
   }
-  nav h4{
+  nav h4 {
     font-size: 2vw;
+  }
+  .section-container {
+    background-image: url("https://omghcontent.affino.com/AcuCustom/Sitename/DAM/178/Cladding_credit_Hiran_Perera.jpg");
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight: bolder;
+    word-spacing: 1vw;
+    color: white;
+  }
+  .section-container > .nav-btn{
+    margin: 2vw;
+    cursor: pointer;
   }
 }
