@@ -20,6 +20,7 @@ nav h2 {
 }
 nav h4 {
   font-size: 1.5vw;
+  cursor: pointer;
 }
 .nav-btn {
   padding: 1rem;
@@ -46,7 +47,7 @@ nav h4 {
   border-color: white;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
-  mix-blend-mode: screen; 
+  mix-blend-mode: screen;
   cursor: pointer;
 }
 
@@ -71,7 +72,7 @@ nav h4 {
     word-spacing: 1vw;
     color: white;
   }
-  .section-container > .nav-btn{
+  .section-container > .nav-btn {
     margin: 2vw;
     cursor: pointer;
   }
